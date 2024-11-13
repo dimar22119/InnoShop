@@ -1,0 +1,12 @@
+D:\Projects\Main\InnoShop\EmailService\bin\Debug\net8.0\EmailService.deps.json
+D:\Projects\Main\InnoShop\EmailService\bin\Debug\net8.0\EmailService.dll
+D:\Projects\Main\InnoShop\EmailService\bin\Debug\net8.0\EmailService.pdb
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.csproj.AssemblyReference.cache
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfoInputs.cache
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfo.cs
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.csproj.CoreCompileInputs.cache
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.dll
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\refint\EmailService.dll
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\EmailService.pdb
+D:\Projects\Main\InnoShop\EmailService\obj\Debug\net8.0\ref\EmailService.dll

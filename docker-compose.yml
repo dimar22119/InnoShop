@@ -1,0 +1,49 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+     SA_PASSWORD: "121314Nn!"
+     ACCEPT_EULA: "Y"
+    networks:
+     - innoshopnetwork
+    ports:
+     - 1433:1433
+    volumes:
+     - sqlvolume:/var/opt/mssql
+
+  productmanagementapi:
+    image: ${DOCKER_REGISTRY-}productmanagementapi
+    build:
+      context: .
+      dockerfile: ProductManagementApi/Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+     - innoshopnetwork
+    depends_on:
+     - sqlserver
+    ports:
+     - 57001:8081
+    
+
+  usermanagementapi:
+    image: ${DOCKER_REGISTRY-}usermanagementapi
+    build:
+      context: .
+      dockerfile: UserManagementApi/Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+     - innoshopnetwork
+    depends_on:
+     - sqlserver
+    ports:
+     - 57002:8081
+    
+
+networks:
+  innoshopnetwork:
+
+volumes:
+  sqlvolume:
+

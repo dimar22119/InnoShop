@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Main\\InnoShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31ED30F4-6C76-4C82-8E49-F2FE798B539B}|UserManagementApi\\UserManagementApi.csproj|d:\\projects\\main\\innoshop\\usermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31ED30F4-6C76-4C82-8E49-F2FE798B539B}|UserManagementApi\\UserManagementApi.csproj|solutionrelative:usermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31ED30F4-6C76-4C82-8E49-F2FE798B539B}|UserManagementApi\\UserManagementApi.csproj|d:\\projects\\main\\innoshop\\usermanagementapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31ED30F4-6C76-4C82-8E49-F2FE798B539B}|UserManagementApi\\UserManagementApi.csproj|solutionrelative:usermanagementapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652FF675-099E-473D-8780-BCDE77631A68}|ProductManagementApi\\ProductManagementApi.csproj|d:\\projects\\main\\innoshop\\productmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652FF675-099E-473D-8780-BCDE77631A68}|ProductManagementApi\\ProductManagementApi.csproj|solutionrelative:productmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652FF675-099E-473D-8780-BCDE77631A68}|ProductManagementApi\\ProductManagementApi.csproj|d:\\projects\\main\\innoshop\\productmanagementapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{652FF675-099E-473D-8780-BCDE77631A68}|ProductManagementApi\\ProductManagementApi.csproj|solutionrelative:productmanagementapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0800F251-895F-41E3-B4D2-385390641C9A}|docker-compose.dcproj|d:\\projects\\main\\innoshop\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0800F251-895F-41E3-B4D2-385390641C9A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Main\\InnoShop\\UserManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagementApi\\Program.cs",
+              "ToolTip": "D:\\Projects\\Main\\InnoShop\\UserManagementApi\\Program.cs",
+              "RelativeToolTip": "UserManagementApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:11:39.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\Main\\InnoShop\\ProductManagementApi\\Dockerfile",
+              "RelativeDocumentMoniker": "ProductManagementApi\\Dockerfile",
+              "ToolTip": "D:\\Projects\\Main\\InnoShop\\ProductManagementApi\\Dockerfile",
+              "RelativeToolTip": "ProductManagementApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-13T00:48:20.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Projects\\Main\\InnoShop\\UserManagementApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "UserManagementApi\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Projects\\Main\\InnoShop\\UserManagementApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "UserManagementApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T00:42:03.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Projects\\Main\\InnoShop\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Projects\\Main\\InnoShop\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-13T00:35:41.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Projects\\Main\\InnoShop\\ProductManagementApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductManagementApi\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Projects\\Main\\InnoShop\\ProductManagementApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductManagementApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T00:34:21.327Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

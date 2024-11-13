@@ -1,0 +1,112 @@
+[
+  {
+    "ContainingType": "ProductManagementApi.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Availability",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementApi.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createProductDto",
+        "Type": "ProductManagementApi.Dtos.CreateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementApi.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementApi.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateProductDto",
+        "Type": "ProductManagementApi.Dtos.UpdateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementApi.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

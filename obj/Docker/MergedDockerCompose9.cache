@@ -1,0 +1,95 @@
+name: dockercompose9681522211133144532
+services:
+  productmanagementapi:
+    build:
+      context: D:\Projects\Main\InnoShop
+      dockerfile: ProductManagementApi/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: productmanagementapi
+    networks:
+      innoshopnetwork: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Dmitry\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Dmitry\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: 121314Nn!
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      innoshopnetwork: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlvolume
+        target: /var/opt/mssql
+        volume: {}
+  usermanagementapi:
+    build:
+      context: D:\Projects\Main\InnoShop
+      dockerfile: UserManagementApi/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: usermanagementapi
+    networks:
+      innoshopnetwork: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Dmitry\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Dmitry\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  innoshopnetwork:
+    name: dockercompose9681522211133144532_innoshopnetwork
+volumes:
+  sqlvolume:
+    name: dockercompose9681522211133144532_sqlvolume
